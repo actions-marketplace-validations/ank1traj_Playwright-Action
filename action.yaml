@@ -1,4 +1,5 @@
 name: Playwright Tests
+description: This action will run the playwright test on every day at 18:00 IST, on every push, pr and save the artifacts for more info. Artifacts will get deleted in 15 days by default. And, you can run the action manually too. 
 on:
   schedule:
     - cron: '* 18 * * *'
